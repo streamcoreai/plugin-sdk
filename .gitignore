@@ -1,0 +1,19 @@
+# --- Python (plugin-sdk/python) ---
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build outputs: setuptools (python/) and tsc (typescript/)
+build/
+dist/
+
+# --- TypeScript / Node (plugin-sdk/typescript) ---
+node_modules/
+*.tsbuildinfo
