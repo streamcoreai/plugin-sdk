@@ -1,5 +1,7 @@
 # `@streamcore/plugin`
 
+**English** | [简体中文](./README.zh-CN.md)
+
 TypeScript/JavaScript SDK for building **StreamCoreAI** plugins. Plugins are subprocesses spawned by the **Go voice agent server**; they talk to the server over **JSON-RPC 2.0** on **stdin/stdout** so the LLM can call your code during conversations.
 
 For the full workflow (manifests, plugin directory layout, and how the server loads plugins), see the [Plugin Development Guide](../../docs/plugins.md).
